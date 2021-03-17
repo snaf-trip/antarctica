@@ -1,16 +1,16 @@
 @font-face {
   font-family: "Montserrat-Regular";
   src: url("../fonts/11952.woff2") format("woff2"),
-  url("../fonts/Montserrat-Regular.woff") format("woff");
+    url("../fonts/Montserrat-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
-body{
+body {
   background-color: #f9fbfd;
 }
 
-.container{
+.container {
   width: 95%;
   max-width: 1160px;
   margin: auto;
@@ -18,7 +18,7 @@ body{
 
 /* HEADER */
 
-.header{
+.header {
   margin-top: 35px;
   display: flex;
   align-items: center;
@@ -27,20 +27,19 @@ body{
   margin-bottom: 210px;
 }
 
-
-.menu-link{
+.menu-link {
   font-family: "Montserrat-Regular", "Arial", sans-serif;
-  color: #F9FBFD;
+  color: #f9fbfd;
   text-decoration: none;
   font-weight: 500;
   font-size: 16px;
   margin-left: 33px;
 }
 
-.first-background-img{
+.first-background-img {
   background-repeat: no-repeat;
   background-size: cover;
-  position: absolute; 
+  position: absolute;
   top: 0;
   right: 0;
   z-index: -1;
@@ -50,191 +49,274 @@ body{
 
 /* FIRST TITLE AND FIRST SPAN */
 
-.first-title{
+.first-title {
   font-family: "Montserrat-Regular", "Arial", sans-serif;
   font-weight: bold;
   font-size: 54px;
   line-height: 66px;
-  color: #F9FBFD;
+  color: #f9fbfd;
   margin-bottom: 30px;
 }
 
-.first-span{
+.first-span {
   font-family: "Montserrat-Regular", "Arial", sans-serif;
   font-size: 20px;
   line-height: 24px;
-  color: #F9FBFD;
+  color: #f9fbfd;
 }
 
-.title-and-span{
+.title-and-span {
   margin-bottom: 403px;
 }
 
 /* SECOND BLOCK */
 
-.second-block{
+.second-block {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 120px;
 }
 
-.title-second-block{
+.title-second-block {
   font-weight: 600;
   font-size: 28px;
   line-height: 150%;
   font-family: "Montserrat-Regular", "Arial", sans-serif;
-  color: #011C40;
+  color: #011c40;
   margin-bottom: 40px;
 }
 
-.description-second-block{
+.description-second-block {
   font-family: "Montserrat-Regular", "Arial", sans-serif;
   font-size: 16px;
   line-height: 150%;
-  color: #011C40;
+  color: #011c40;
   width: 512px;
   height: 108px;
 }
 
 /* THRID BLOCK */
 
-.thrid-background-img{
+.thrid-background-img {
   width: 100%;
   height: 562px;
   background-repeat: no-repeat;
   z-index: -1;
   background-size: cover;
-  position: absolute; 
+  position: absolute;
 }
 
-.thrid-block{
+.thrid-block {
   z-index: 1;
 }
 
-.thrid-block-content{
+.thrid-block-content {
   box-sizing: border-box;
   padding-top: 120px;
 }
 
-.title-thrid-block{
+.title-thrid-block {
   font-family: "Montserrat-Regular", "Arial", sans-serif;
   font-weight: 600;
   font-size: 28px;
   line-height: 150%;
-  color: #011C40;
+  color: #011c40;
   width: 228px;
   margin: auto;
   margin-bottom: 60px;
   height: 21px;
 }
 
-.cards{
+.cards {
   display: flex;
   margin-bottom: 240px;
 }
 
-.card{
-  background-color: #F9FBFD;
+.card {
+  background-color: #f9fbfd;
   width: 360px;
   height: 241px;
   padding-left: 30px;
   margin-right: 40px;
 }
 
-.card:last-child{
+.card:last-child {
   margin-right: 0;
 }
 
-.card1{
+.card1 {
   box-sizing: border-box;
   padding-top: 30px;
 }
 
-.card2{
+.card2 {
   box-sizing: border-box;
   padding-top: 35px;
 }
 
-.card3{
+.card3 {
   box-sizing: border-box;
   padding-top: 38px;
 }
 
-
-.card-title{
+.card-title {
   font-family: "Montserrat-Regular", "Arial", sans-serif;
   font-weight: 600;
   font-size: 18px;
   line-height: 150%;
-  color: #011C40;
+  color: #011c40;
   margin-bottom: 20px;
   height: 13px;
 }
 
-.card-discription{
+.card-discription {
   font-family: "Montserrat-Regular", "Arial", sans-serif;
   font-size: 14px;
   line-height: 140%;
-  color: #011C40;
+  color: #011c40;
 }
 
-.card-discription1{
+.card-discription1 {
   width: 288px;
   height: 71px;
 }
 
-.card-discription2{
+.card-discription2 {
   width: 280px;
   height: 71px;
 }
 
-.card-discription3{
+.card-discription3 {
   width: 241px;
   height: 91px;
 }
 
 /* FOURTH BLOCK */
 
-.fourth-block-content{
+.fourth-block-content {
   width: 1130px;
   margin: 0 auto;
 }
 
-.title-fourth-block{
+.title-fourth-block {
   font-family: "Montserrat-Regular", "Arial", sans-serif;
   font-weight: 600;
   font-size: 28px;
   line-height: 150%;
-  color: #011C40;
+  color: #011c40;
   width: 302px;
   margin: auto;
   margin-bottom: 60px;
 }
 
-.big-cards{
+.big-cards {
   width: 1130px;
   margin: 0 auto;
 }
 
-.first-big-cards-row{
+.first-big-cards-row {
   display: flex;
   justify-content: space-between;
   margin-bottom: 30px;
+  height: 386px;
 }
 
-.second-big-cards-row{
+.second-big-cards-row {
   display: flex;
   justify-content: space-between;
+  height: 386px;
 }
 
-.big-card-gradient{
-  background: linear-gradient(180deg, rgba(1, 28, 64, 0) 50%, #011C40 100%);
+.big-card-gradient {
+  background: linear-gradient(180deg, rgba(1, 28, 64, 0) 50%, #011c40 100%);
   width: 260px;
   position: relative;
+  display: flex;
 }
 
-.big-card-img{
+.big-card-img {
   z-index: -1;
-  position: absolute; 
+  position: absolute;
+}
+
+.big-card-foto {
+  display: flex;
+}
+
+.big-card-title {
+  font-family: "Montserrat-Regular", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #f9fbfd;
+  margin: 343px auto 30px 30px;
+}
+
+/* big-card-info */
+
+.big-card-info {
+  width: 260px;
+  height: 386px;
+  background-color: #011c40;
+  display: none;
+}
+
+.title-big-card-info {
+  font-family: "Montserrat-Regular", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #f9fbfd;
+  margin-bottom: 23px;
+  margin-left: 25px;
+  margin-top: 33px;
+}
+
+.h3-big-card-info {
+  font-family: "Montserrat-Regular", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 140%;
+  color: #f9fbfd;
+  height: 11px;
+  margin-bottom: 8px;
+  margin-left: 25px;
+}
+
+.discription-big-card-info {
+  font-family: "Montserrat-Regular", "Arial", sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 140%;
+  color: #d8d8d9;
+  margin-bottom: 18px;
+  display: block;
+  margin-left: 25px;
+  width: 210px;
+}
+
+.btn-big-card-info {
+  font-family: "Montserrat-Regular", "Arial", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 150%;
+  color: #011c40;
+  width: 210px;
+  height: 40px;
+  background-color: #f9fbfd;
+  margin-left: 25px;
+  margin-bottom: 33px;
+}
+
+.big-card-gradient:hover .big-card-foto {
+  display: none;
+}
+
+.big-card-gradient:hover .big-card-info {
+  display: block;
 }
