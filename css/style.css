@@ -38,7 +38,6 @@ body{
 }
 
 .first-background-img{
-  background-image: url(../img/background-img1.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute; 
@@ -47,11 +46,6 @@ body{
   z-index: -1;
   width: 100%;
   height: 650px;
-
-  /* height: 70%; */
-
-  /* height: 100%;
-  max-height: 650px; */
 }
 
 /* FIRST TITLE AND FIRST SPAN */
@@ -105,15 +99,17 @@ body{
 
 /* THRID BLOCK */
 
-.thrid-block{
-  background-image: url(../img/background-img3.png);
+.thrid-background-img{
   width: 100%;
   height: 562px;
-  top: 0;
-  right: 0;
   background-repeat: no-repeat;
+  z-index: -1;
   background-size: cover;
-  /* padding-top: 120px; */
+  position: absolute; 
+}
+
+.thrid-block{
+  z-index: 1;
 }
 
 .thrid-block-content{
@@ -135,6 +131,7 @@ body{
 
 .cards{
   display: flex;
+  margin-bottom: 240px;
 }
 
 .card{
@@ -195,4 +192,49 @@ body{
 .card-discription3{
   width: 241px;
   height: 91px;
+}
+
+/* FOURTH BLOCK */
+
+.fourth-block-content{
+  width: 1130px;
+  margin: 0 auto;
+}
+
+.title-fourth-block{
+  font-family: "Montserrat-Regular", "Arial", sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 150%;
+  color: #011C40;
+  width: 302px;
+  margin: auto;
+  margin-bottom: 60px;
+}
+
+.big-cards{
+  width: 1130px;
+  margin: 0 auto;
+}
+
+.first-big-cards-row{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.second-big-cards-row{
+  display: flex;
+  justify-content: space-between;
+}
+
+.big-card-gradient{
+  background: linear-gradient(180deg, rgba(1, 28, 64, 0) 50%, #011C40 100%);
+  width: 260px;
+  position: relative;
+}
+
+.big-card-img{
+  z-index: -1;
+  position: absolute; 
 }
