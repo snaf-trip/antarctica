@@ -6,7 +6,7 @@
   font-style: normal;
 }
 
-body {
+.body {
   background-color: #f9fbfd;
 }
 
@@ -96,7 +96,32 @@ body {
   height: 108px;
 }
 
+.second-block-img-div {
+  height: 301px;
+  width: 560px;
+  overflow: hidden;
+}
+
+.second-block-img-div .img-second-block {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 /* THRID BLOCK */
+
+.thrid-block-img-div {
+  width: 100%;
+  height: 562px;
+  overflow: hidden;
+  position: absolute;
+}
+
+.thrid-block-img-div .thrid-background-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 .thrid-background-img {
   width: 100%;
@@ -535,4 +560,160 @@ body {
 
 .social-link:last-child {
   margin-right: 0px;
+}
+
+.test-fifth-back {
+  height: 555px;
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+}
+
+.test-fifth-back .background-fifth-block {
+  /* max-width: 100%; */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 1180px) {
+  .container {
+    width: 100%;
+    max-width: 678px;
+  }
+
+  .logo {
+    width: 38px;
+    height: 20px;
+  }
+
+  .menu-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 23px;
+  }
+
+  .first-title {
+    font-size: 50px;
+    line-height: 61px;
+    margin-bottom: 29px;
+  }
+
+  .first-span {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .title-and-span {
+    margin-bottom: 380px;
+  }
+
+  .first-background-img {
+    height: 638px;
+  }
+
+  /* SECOND BLOCK */
+
+  .second-block {
+    margin-bottom: 100px;
+  }
+
+  .title-second-block {
+    font-size: 26px;
+    line-height: 140%;
+    margin-bottom: 30px;
+    width: 205px;
+  }
+  .description-second-block {
+    font-size: 15px;
+    line-height: 150%;
+    width: 324px;
+    height: 180px;
+  }
+
+  .second-block-img-div {
+    height: 264px;
+    width: 324px;
+    overflow: hidden;
+  }
+
+  /* THRID BLOCk */
+
+  .thrid-block-img-div {
+    height: 588px;
+  }
+
+  .thrid-block-content {
+    padding-top: 100px;
+  }
+
+  .cards {
+    margin-bottom: 200px;
+  }
+
+  .card {
+    width: 206px;
+    height: 310px;
+    padding-left: 20px;
+    margin-right: 32px;
+  }
+  .card1 {
+    padding-top: 25px;
+  }
+
+  .card2 {
+    box-sizing: border-box;
+    padding-top: 29px;
+  }
+
+  .card3 {
+    box-sizing: border-box;
+    padding-top: 32px;
+  }
+
+  .card-icon1 {
+    width: 21px;
+    height: 26px;
+  }
+
+  .card-icon2 {
+    width: 33px;
+    height: 19px;
+    margin-bottom: 28px;
+  }
+
+  .card-icon3 {
+    width: 38px;
+    height: 13px;
+    margin-bottom: 31px;
+  }
+
+  .card-title {
+    line-height: 140%;
+    margin-bottom: 20px;
+    height: 40px;
+  }
+
+  .card-discription {
+    font-size: 14px;
+    line-height: 140%;
+  }
+
+  .card-discription1 {
+    width: 154px;
+    height: 151px;
+  }
+
+  .card-discription2 {
+    width: 162px;
+    height: 131px;
+  }
+
+  .card-discription3 {
+    width: 167px;
+    height: 151px;
+  }
+
+  /* FOURTH BLOCK */
 }
